@@ -1,0 +1,11 @@
+baseurl = "http://blog.znurre.com/"
+title = "Znurre's blog"
+languageCode = "en-us"
+theme = "hugo-bootstrap-premium"
+
+[params.theme]
+name = "lumen"
+
+[params]
+showRightSidebar = false
+github = "Znurre"
