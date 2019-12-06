@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Znurre&#39;s blog</title>
+    <link>http://blog.znurre.com/tags/</link>
+    <description>Recent content in Tags on Znurre&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Aug 2019 09:05:50 +0200</lastBuildDate>
+    
+	<atom:link href="http://blog.znurre.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>japan</title>
+      <link>http://blog.znurre.com/tags/japan/</link>
+      <pubDate>Fri, 30 Aug 2019 09:05:50 +0200</pubDate>
+      
+      <guid>http://blog.znurre.com/tags/japan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>traveling</title>
+      <link>http://blog.znurre.com/tags/traveling/</link>
+      <pubDate>Fri, 30 Aug 2019 09:05:50 +0200</pubDate>
+      
+      <guid>http://blog.znurre.com/tags/traveling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>c&#43;&#43;</title>
+      <link>http://blog.znurre.com/tags/c&#43;&#43;/</link>
+      <pubDate>Sun, 27 Nov 2016 19:46:12 +0100</pubDate>
+      
+      <guid>http://blog.znurre.com/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>http://blog.znurre.com/tags/programming/</link>
+      <pubDate>Sun, 27 Nov 2016 19:46:12 +0100</pubDate>
+      
+      <guid>http://blog.znurre.com/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qml</title>
+      <link>http://blog.znurre.com/tags/qml/</link>
+      <pubDate>Sun, 27 Nov 2016 19:46:12 +0100</pubDate>
+      
+      <guid>http://blog.znurre.com/tags/qml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qt</title>
+      <link>http://blog.znurre.com/tags/qt/</link>
+      <pubDate>Sun, 27 Nov 2016 19:46:12 +0100</pubDate>
+      
+      <guid>http://blog.znurre.com/tags/qt/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

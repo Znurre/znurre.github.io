@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Znurre&#39;s blog</title>
-    <link>http://blog.znurre.com/tags/qml/index.xml</link>
-    <description>Recent content on Znurre&#39;s blog</description>
+    <title>qml on Znurre&#39;s blog</title>
+    <link>http://blog.znurre.com/tags/qml/</link>
+    <description>Recent content in qml on Znurre&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://blog.znurre.com/tags/qml/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Nov 2016 19:46:12 +0100</lastBuildDate>
+    
+	<atom:link href="http://blog.znurre.com/tags/qml/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Using scalar QList as model in Qt Quick</title>
@@ -14,41 +17,10 @@
       <pubDate>Sun, 27 Nov 2016 19:46:12 +0100</pubDate>
       
       <guid>http://blog.znurre.com/post/using-scalar-qlist-as-model-in-qt-quick/</guid>
-      <description>&lt;p&gt;Today I attempted to expose a QList&amp;lt;int&amp;gt; from C++ to QML and use it as model for a
-repeater.&lt;/p&gt;
-
-&lt;p&gt;The documentation
-&lt;a href=&#34;http://doc.qt.io/qt-5/qtqml-cppintegration-data.html#sequence-type-to-javascript-array&#34;&gt;here&lt;/a&gt;
-seems to indicate that a QList&amp;lt;int&amp;gt; should be treated as a JS Array in QML.&lt;br /&gt;
-This isn&amp;rsquo;t entirely true however, as I found out a QList&lt;int&gt; can not be used as model,
-while a JS Array can.&lt;br /&gt;
-You won&amp;rsquo;t get any runtime error, the property will be read but it just won&amp;rsquo;t work.&lt;/p&gt;
-
-&lt;p&gt;After some googling I found the following &lt;a href=&#34;http://stackoverflow.com/questions/31996582/qlistint-cannot-be-used-as-a-model-for-repeater&#34;&gt;Stack Overflow
-post&lt;/a&gt;
-which cleared up a few things for me.&lt;br /&gt;
-It also gave me some inspiration for a possible solution.&lt;/p&gt;
-
-&lt;p&gt;Since a QList&amp;lt;int&amp;gt; is supported by QML, just not as a model in Qt Quick, you can
-query its
-length
-and content just fine.&lt;br /&gt;
-Using this knowledge, we can work around the problem by using the fact that numbers can
-be used as models in Qt Quick.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-qml&#34;&gt;Repeater
-{
-	model: myModel.values.length
-	
-	Text
-	{
-		text: myModel.values[index]
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Not the prettiest solution, but it works.&lt;/p&gt;
-</description>
+      <description>Today I attempted to expose a QList&amp;lt;int&amp;gt; from C++ to QML and use it as model for a repeater.
+The documentation here seems to indicate that a QList&amp;lt;int&amp;gt; should be treated as a JS Array in QML.
+This isn&#39;t entirely true however, as I found out a QListcan not be used as model, while a JS Array can.
+You won&#39;t get any runtime error, the property will be read but it just won&#39;t work.</description>
     </item>
     
   </channel>

@@ -1,9 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://blog.znurre.com/tags/japan/</loc>
+    <lastmod>2019-08-30T09:05:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.znurre.com/post/japan2019/day22/</loc>
+    <lastmod>2019-08-30T09:05:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.znurre.com/post/</loc>
+    <lastmod>2019-08-30T09:05:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.znurre.com/tags/</loc>
+    <lastmod>2019-08-30T09:05:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.znurre.com/tags/traveling/</loc>
+    <lastmod>2019-08-30T09:05:50+02:00</lastmod>
+  </url>
   
   <url>
     <loc>http://blog.znurre.com/</loc>
-    <lastmod>2019-08-28T08:59:36+02:00</lastmod>
+    <lastmod>2019-08-30T09:05:50+02:00</lastmod>
   </url>
   
   <url>
@@ -112,8 +138,32 @@
   </url>
   
   <url>
+    <loc>http://blog.znurre.com/tags/c&#43;&#43;/</loc>
+    <lastmod>2016-11-27T19:46:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.znurre.com/tags/programming/</loc>
+    <lastmod>2016-11-27T19:46:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.znurre.com/tags/qml/</loc>
+    <lastmod>2016-11-27T19:46:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.znurre.com/tags/qt/</loc>
+    <lastmod>2016-11-27T19:46:12+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.znurre.com/post/using-scalar-qlist-as-model-in-qt-quick/</loc>
     <lastmod>2016-11-27T19:46:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.znurre.com/categories/</loc>
   </url>
   
 </urlset>

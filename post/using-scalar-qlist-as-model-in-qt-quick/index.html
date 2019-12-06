@@ -61,7 +61,7 @@
     },
     "datePublished": "2016-11-27",
     "description": "",
-    "wordCount":  167 
+    "wordCount":  166 
   }
 </script>
 
@@ -70,7 +70,7 @@
 <link rel="canonical" href="http://blog.znurre.com/post/using-scalar-qlist-as-model-in-qt-quick/" />
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
 <link rel="icon" href="/favicon.png">
-<meta name="generator" content="Hugo 0.17" />
+<meta name="generator" content="Hugo 0.60.1" />
 
   <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
@@ -162,7 +162,7 @@
 
   <small>
   &middot; Read in about 1 min
-  &middot; (167 Words)
+  &middot; (166 Words)
 </small>
 
 
@@ -189,27 +189,23 @@
       <div class="content">
   <p>Today I attempted to expose a QList&lt;int&gt; from C++ to QML and use it as model for a
 repeater.</p>
-
 <p>The documentation
 <a href="http://doc.qt.io/qt-5/qtqml-cppintegration-data.html#sequence-type-to-javascript-array">here</a>
-seems to indicate that a QList&lt;int&gt; should be treated as a JS Array in QML.<br />
-This isn&rsquo;t entirely true however, as I found out a QList<int> can not be used as model,
-while a JS Array can.<br />
-You won&rsquo;t get any runtime error, the property will be read but it just won&rsquo;t work.</p>
-
+seems to indicate that a QList&lt;int&gt; should be treated as a JS Array in QML.<br>
+This isn't entirely true however, as I found out a QList<!-- raw HTML omitted --> can not be used as model,
+while a JS Array can.<br>
+You won't get any runtime error, the property will be read but it just won't work.</p>
 <p>After some googling I found the following <a href="http://stackoverflow.com/questions/31996582/qlistint-cannot-be-used-as-a-model-for-repeater">Stack Overflow
 post</a>
-which cleared up a few things for me.<br />
+which cleared up a few things for me.<br>
 It also gave me some inspiration for a possible solution.</p>
-
 <p>Since a QList&lt;int&gt; is supported by QML, just not as a model in Qt Quick, you can
 query its
 length
-and content just fine.<br />
+and content just fine.<br>
 Using this knowledge, we can work around the problem by using the fact that numbers can
 be used as models in Qt Quick.</p>
-
-<pre><code class="language-qml">Repeater
+<pre><code class="language-qml" data-lang="qml">Repeater
 {
 	model: myModel.values.length
 	
@@ -218,9 +214,7 @@ be used as models in Qt Quick.</p>
 		text: myModel.values[index]
 	}
 }
-</code></pre>
-
-<p>Not the prettiest solution, but it works.</p>
+</code></pre><p>Not the prettiest solution, but it works.</p>
 
 </div>
 
@@ -301,22 +295,22 @@ be used as models in Qt Quick.</p>
 
 
 <script>
-var ENABLE_POPOVER = ""; 
-var EXPIRE_COOKIE = ""; 
-var SHOW_MODAL_TIMEOUT = ""; 
-var MOUSE_LEAVE = ""; 
-var MODAL_SIZE = ""; 
-var POST_URL = ""; 
-var SIGNUP_HEADER = "";
-var HEADER_IMAGE = "";
-var IMG_DESCRIPTION = "";
-var SIGNUP_TEXT = "";
-var INPUT_PLACEHOLDER = "";
-var SUBMIT_BUTTON = "";
-var SUCCESS_MESSAGE = "";
-var ERROR_MESSAGE = "";
-var OPTIN = "";
-var COOKIE_NAME = "";
+var ENABLE_POPOVER =  null ; 
+var EXPIRE_COOKIE =  null ; 
+var SHOW_MODAL_TIMEOUT =  null ; 
+var MOUSE_LEAVE =  null ; 
+var MODAL_SIZE =  null ; 
+var POST_URL =  null ; 
+var SIGNUP_HEADER =  null ;
+var HEADER_IMAGE =  null ;
+var IMG_DESCRIPTION =  null ;
+var SIGNUP_TEXT =  null ;
+var INPUT_PLACEHOLDER =  null ;
+var SUBMIT_BUTTON =  null ;
+var SUCCESS_MESSAGE =  null ;
+var ERROR_MESSAGE =  null ;
+var OPTIN =  null ;
+var COOKIE_NAME =  null ;
 </script>
 <script src="/js/popover/angular-modal-service.min.js"></script>
 <script src="/js/angular-ismobile.min.js"></script>
