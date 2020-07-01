@@ -251,15 +251,5 @@ This isn&amp;rsquo;t entirely true however, as I found out a QListcan not be use
 You won&amp;rsquo;t get any runtime error, the property will be read but it just won&amp;rsquo;t work.</description>
     </item>
     
-    <item>
-      <title>Bergsjöbanan</title>
-      <link>http://blog.znurre.com/post/bergsjobanan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://blog.znurre.com/post/bergsjobanan/</guid>
-      <description>I måndags hade jag egentligen tänkt publicera den första delen av den serie som skulle bli introduktionen till min cykelsemester, men istället så har jag snubblat över någonting annat, dock inte helt orelaterat, som jag kände ett behov av att dokumentera.
-Som så ofta är fallet med mig så snöar jag lätt in på ett visst ämne och blir närmast besatt av det under en kort period. Den här gången handlade det om en smalspårsbana i trakten - Bergsjöbanan, som enligt informationen jag kunnat hitta var i bruk fram till 1962 då den lades ner på grund av olönsamhet.</description>
-    </item>
-    
   </channel>
 </rss>
