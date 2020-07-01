@@ -19,8 +19,8 @@
       <guid>http://blog.znurre.com/post/using-scalar-qlist-as-model-in-qt-quick/</guid>
       <description>Today I attempted to expose a QList&amp;lt;int&amp;gt; from C++ to QML and use it as model for a repeater.
 The documentation here seems to indicate that a QList&amp;lt;int&amp;gt; should be treated as a JS Array in QML.
-This isn&#39;t entirely true however, as I found out a QListcan not be used as model, while a JS Array can.
-You won&#39;t get any runtime error, the property will be read but it just won&#39;t work.</description>
+This isn&amp;rsquo;t entirely true however, as I found out a QListcan not be used as model, while a JS Array can.
+You won&amp;rsquo;t get any runtime error, the property will be read but it just won&amp;rsquo;t work.</description>
     </item>
     
   </channel>

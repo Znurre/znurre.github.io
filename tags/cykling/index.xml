@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cykling on Znurre&#39;s blog</title>
+    <link>http://blog.znurre.com/tags/cykling/</link>
+    <description>Recent content in cykling on Znurre&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://blog.znurre.com/tags/cykling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bergsjöbanan</title>
+      <link>http://blog.znurre.com/post/bergsjobanan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.znurre.com/post/bergsjobanan/</guid>
+      <description>I måndags hade jag egentligen tänkt publicera den första delen av den serie som skulle bli introduktionen till min cykelsemester, men istället så har jag snubblat över någonting annat, dock inte helt orelaterat, som jag kände ett behov av att dokumentera.
+Som så ofta är fallet med mig så snöar jag lätt in på ett visst ämne och blir närmast besatt av det under en kort period. Den här gången handlade det om en smalspårsbana i trakten - Bergsjöbanan, som enligt informationen jag kunnat hitta var i bruk fram till 1962 då den lades ner på grund av olönsamhet.</description>
+    </item>
+    
+  </channel>
+</rss>

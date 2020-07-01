@@ -70,7 +70,7 @@
 <link rel="canonical" href="http://blog.znurre.com/post/using-scalar-qlist-as-model-in-qt-quick/" />
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
 <link rel="icon" href="/favicon.png">
-<meta name="generator" content="Hugo 0.60.1" />
+<meta name="generator" content="Hugo 0.73.0" />
 
   <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
@@ -192,9 +192,9 @@ repeater.</p>
 <p>The documentation
 <a href="http://doc.qt.io/qt-5/qtqml-cppintegration-data.html#sequence-type-to-javascript-array">here</a>
 seems to indicate that a QList&lt;int&gt; should be treated as a JS Array in QML.<br>
-This isn't entirely true however, as I found out a QList<!-- raw HTML omitted --> can not be used as model,
+This isn&rsquo;t entirely true however, as I found out a QList<!-- raw HTML omitted --> can not be used as model,
 while a JS Array can.<br>
-You won't get any runtime error, the property will be read but it just won't work.</p>
+You won&rsquo;t get any runtime error, the property will be read but it just won&rsquo;t work.</p>
 <p>After some googling I found the following <a href="http://stackoverflow.com/questions/31996582/qlistint-cannot-be-used-as-a-model-for-repeater">Stack Overflow
 post</a>
 which cleared up a few things for me.<br>
@@ -224,6 +224,12 @@ be used as models in Qt Quick.</p>
       
   
     <nav><ul class="pager">
+    
+        <li class="previous">
+          <a href="http://blog.znurre.com/post/bergsjobanan/" title="Bergsjöbanan">
+            <span aria-hidden="true">&larr;</span>Previous
+          </a>
+        </li>
     
 
     

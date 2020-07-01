@@ -65,5 +65,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>cykling</title>
+      <link>http://blog.znurre.com/tags/cykling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.znurre.com/tags/cykling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>äventyr</title>
+      <link>http://blog.znurre.com/tags/%C3%A4ventyr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.znurre.com/tags/%C3%A4ventyr/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
