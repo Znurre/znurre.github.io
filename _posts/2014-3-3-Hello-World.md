@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Steam: The Curious Case of Connect
+title: "Steam: The Curious Case of Connect"
 ---
 
 TBD
